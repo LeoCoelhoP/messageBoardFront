@@ -1,0 +1,23 @@
+.avatars {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	font-size: 1.5rem;
+}
+
+.avatars-title {
+	margin: 0;
+}
+img {
+	width: 60px;
+}
+img:hover {
+	width: 65px;
+}
+
+.selected {
+	border: 2px solid black;
+	border-radius: 50%;
+}

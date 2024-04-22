@@ -1,0 +1,36 @@
+.message-board-messages-container {
+	overflow: visible;
+	overflow-y: scroll;
+	position: relative;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.users-message-main-container {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	margin: 30px;
+	width: fit-content;
+	gap: 10px;
+	font-size: 1.2rem;
+}
+
+.users-message-avatar {
+	width: 70px;
+	height: 70px;
+	flex-shrink: 0;
+}
+
+.users-message-content {
+	background-color: #b7b7b734;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.users-message-date {
+	display: flex;
+	justify-content: end;
+	margin-top: 10px;
+	font-size: 1rem;
+}

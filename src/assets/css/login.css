@@ -1,0 +1,109 @@
+.login-container,
+.signup-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 50svw;
+	height: 80svh;
+	background-color: white;
+	border-radius: 10px;
+}
+h1 {
+	font-size: 3rem;
+	margin: 0;
+}
+.signup-container,
+.login-container {
+	border-radius: 10px 10px 10px 10px;
+}
+
+.signup-form,
+.login-form {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+#username-signup,
+#password-signup,
+#email-signup,
+#username,
+#password {
+	height: 60px;
+	border: 2px solid rgb(174, 174, 174);
+	border-radius: 5px;
+	text-indent: 40px;
+	font-size: 2.3rem;
+	cursor: pointer;
+}
+
+.username-signup-label,
+.password-signup-label,
+.email-signup-label,
+.username-label,
+.password-label {
+	position: relative;
+	right: 10px;
+	top: 20px;
+	background-color: white;
+	font-size: 2.5rem;
+	cursor: pointer;
+}
+
+.email-icon,
+.username-icon,
+.password-icon {
+	position: relative;
+	font-size: 1.6rem;
+	top: 55px;
+	left: 10px;
+	cursor: pointer;
+}
+
+.login-options {
+	margin-top: 10px;
+	display: grid;
+	grid-auto-flow: column;
+	text-align: end;
+}
+
+.remember {
+	text-align: start;
+}
+
+.signup-btn,
+.login-btn {
+	border: 2px solid rgb(174, 174, 174);
+	margin-top: 15px;
+	height: 50px;
+	font-size: 2rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.login-special-action {
+	font-size: 1.5rem;
+}
+.signup-btn {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.singup-back-btn {
+	font-size: 1rem;
+	position: relative;
+	right: 35%;
+	top: 10%;
+	display: flex;
+	align-items: center;
+}
+.singup-back-btn:hover {
+	cursor: pointer;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	-webkit-box-shadow: 0 0 0 30px white inset !important;
+}

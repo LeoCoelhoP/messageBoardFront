@@ -1,0 +1,26 @@
+.message-board {
+	background-color: white;
+	width: 100svw;
+	height: 100svh;
+	overflow: hidden;
+	display: grid;
+	grid-auto-flow: row;
+	grid-template-rows: 5svh 75svh 20svh;
+	position: relative;
+}
+.message-board-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #6666f4;
+	width: 100%;
+	text-align: center;
+	font-size: 1rem;
+	color: white;
+	font-weight: bold;
+}
+
+.singup-back-btn-label {
+	position: relative;
+	right: 70px;
+}

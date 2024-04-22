@@ -1,0 +1,22 @@
+html,
+body,
+#root {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100svw;
+	height: 100svh;
+}
+
+.r3f {
+	touch-action: none;
+	background-image: url('./background.jpg');
+	background-size: cover;
+}
+
+iframe {
+	width: 1024px;
+	height: 670px;
+	border: none;
+	background: #000000;
+}
