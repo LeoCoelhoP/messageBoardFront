@@ -25,9 +25,7 @@ export default function Home() {
 	});
 
 	return (
-		<group
-			position-y={sizes.width < 450 ? 0 : 0.2}
-			position-x={sizes.width < 450 ? 1.2 : 0.2}>
+		<group position-y={0.2}>
 			<Environment preset='city' />
 
 			<PresentationControls
